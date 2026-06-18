@@ -7,8 +7,7 @@ import {
   Mail,
   MapPin,
   Server,
-  Smartphone,
-  Twitter
+  Smartphone
 } from "lucide-react";
 
 export const profile = {
@@ -28,9 +27,12 @@ export const profile = {
     "My work spans healthcare platforms, ERP automation, e-commerce systems, logistics tools, graph-backed social platforms, and custom integrations across startups, agencies, and enterprise environments."
   ],
   socials: [
-    { label: "GitHub", href: "https://github.com/", icon: Github },
-    { label: "LinkedIn", href: "https://linkedin.com/", icon: Linkedin },
-    { label: "Twitter", href: "https://twitter.com/", icon: Twitter },
+    { label: "GitHub", href: "https://github.com/javejudiel", icon: Github },
+    {
+      label: "LinkedIn",
+      href: "https://linkedin.com/in/jave-judiel-kulong",
+      icon: Linkedin
+    },
     { label: "Email", href: "mailto:kulong.javejudiel@gmail.com", icon: Mail }
   ]
 };
@@ -38,8 +40,8 @@ export const profile = {
 export const stats = [
   { label: "Experience", value: profile.experience, icon: Code2 },
   { label: "Location", value: profile.location, icon: MapPin },
-  { label: "Email", value: profile.email, icon: Mail },
-  { label: "Availability", value: profile.availability, icon: Globe2 }
+  { label: "Availability", value: profile.availability, icon: Globe2 },
+  { label: "Email", value: profile.email, icon: Mail }
 ];
 
 export const techStack = [

@@ -303,8 +303,8 @@ select {
 
 .about-panel {
   display: grid;
-  grid-template-columns: 0.95fr 1.1fr;
-  gap: 4rem;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.25fr);
+  gap: 3rem;
   padding: 2rem;
 }
 
@@ -359,7 +359,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   align-content: center;
-  gap: 2rem 1.4rem;
+  gap: 1.9rem 2.1rem;
 }
 
 .stat-item {
@@ -392,6 +392,16 @@ h2 {
   margin-top: 0.2rem;
   font-size: 1rem;
   overflow-wrap: anywhere;
+  line-height: 1.25;
+}
+
+.stat-item[data-long="true"] strong {
+  font-size: 0.95rem;
+}
+
+.stat-item[data-long="true"] {
+  grid-column: 1 / -1;
+  max-width: 100%;
 }
 
 .section-block {

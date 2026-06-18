@@ -19,7 +19,11 @@ export function About() {
         {stats.map((stat) => {
           const Icon = stat.icon;
           return (
-            <div className="stat-item" key={stat.label}>
+            <div
+              className="stat-item"
+              data-long={stat.value.length > 22 ? "true" : undefined}
+              key={stat.label}
+            >
               <div className="stat-icon">
                 <Icon size={22} />
               </div>
