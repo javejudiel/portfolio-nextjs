@@ -1,0 +1,127 @@
+<svg width="1600" height="1040" viewBox="0 0 1600 1040" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1040" rx="32" fill="#07101D"/>
+  <circle cx="1228" cy="160" r="270" fill="#263DFF" opacity="0.12"/>
+  <circle cx="330" cy="760" r="300" fill="#1CB4BE" opacity="0.08"/>
+
+  <style>
+    .title{font:800 42px Arial,sans-serif;fill:#F8FBFF}
+    .subtitle{font:400 20px Arial,sans-serif;fill:#AFC1D8}
+    .label{font:800 22px Arial,sans-serif;fill:#F8FBFF}
+    .small{font:400 17px Arial,sans-serif;fill:#BFD0E5}
+    .tiny{font:700 15px Arial,sans-serif;fill:#7F9BFF}
+    .pill{font:700 15px Arial,sans-serif;fill:#DDE7F6}
+    .note{font:400 16px Arial,sans-serif;fill:#AFC1D8}
+  </style>
+
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2L10 6L2 10V2Z" fill="#5C8DFF"/></marker>
+    <marker id="arrowRed" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2L10 6L2 10V2Z" fill="#FF6B6B"/></marker>
+    <marker id="arrowPurple" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2L10 6L2 10V2Z" fill="#A98CFF"/></marker>
+    <marker id="arrowGray" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2L10 6L2 10V2Z" fill="#8A99AD"/></marker>
+  </defs>
+
+  <text x="72" y="76" class="title">Telemedicine System Architecture</text>
+  <text x="72" y="114" class="subtitle">Simplified for portfolio use. Internal names, table names, and sensitive operational details removed.</text>
+
+  <g transform="translate(78 372)">
+    <circle cx="24" cy="14" r="14" fill="#8FA2BA"/>
+    <path d="M2 54C5 36 43 36 46 54V66H2V54Z" fill="#8FA2BA"/>
+    <text x="0" y="104" class="small">Clinician</text>
+  </g>
+  <g transform="translate(78 668)">
+    <circle cx="24" cy="14" r="14" fill="#8FA2BA"/>
+    <path d="M2 54C5 36 43 36 46 54V66H2V54Z" fill="#8FA2BA"/>
+    <text x="0" y="104" class="small">Collaborator</text>
+  </g>
+
+  <rect x="180" y="195" width="360" height="205" rx="22" fill="#0B1930" stroke="#4D83FF" stroke-width="2" filter="url(#shadow)"/>
+  <text x="214" y="231" class="tiny">01</text>
+  <text x="214" y="269" class="label">Clinical Web App</text>
+  <text x="214" y="311" class="small">Session list and call controls</text>
+  <text x="214" y="340" class="small">Screen sharing and consent</text>
+  <text x="214" y="369" class="small">Chat, annotations, uploads</text>
+  <rect x="214" y="382" width="150" height="34" rx="17" fill="#17253B"/>
+  <text x="240" y="404" class="pill">React UI</text>
+
+  <rect x="180" y="505" width="360" height="180" rx="22" fill="#0D211A" stroke="#58C888" stroke-width="2" filter="url(#shadow)"/>
+  <text x="214" y="541" class="tiny">02</text>
+  <text x="214" y="579" class="label">Imaging Viewer</text>
+  <text x="214" y="621" class="small">Clinical viewer integration</text>
+  <text x="214" y="650" class="small">Shared collaboration entry points</text>
+  <rect x="214" y="667" width="160" height="34" rx="17" fill="#173426"/>
+  <text x="240" y="689" class="pill">DICOM/OHIF</text>
+
+  <rect x="180" y="735" width="360" height="160" rx="22" fill="#111827" stroke="#8A99AD" stroke-width="2" stroke-dasharray="7 7" filter="url(#shadow)"/>
+  <text x="214" y="789" class="label">Privacy Layer</text>
+  <text x="214" y="831" class="small">Patient information masking</text>
+  <text x="214" y="860" class="small">Consent capture and audit trail</text>
+
+  <rect x="680" y="245" width="350" height="430" rx="24" fill="#21190B" stroke="#F4B04E" stroke-width="2" filter="url(#shadow)"/>
+  <text x="714" y="281" class="tiny">03</text>
+  <text x="714" y="319" class="label">Backend API</text>
+  <text x="714" y="361" class="small">Session management</text>
+  <text x="714" y="397" class="small">Token and host checks</text>
+  <text x="714" y="433" class="small">Consent and audit events</text>
+  <text x="714" y="469" class="small">Chat and attachments</text>
+  <text x="714" y="505" class="small">Recording metadata</text>
+  <text x="714" y="541" class="small">Privacy masking logs</text>
+  <rect x="714" y="607" width="168" height="38" rx="19" fill="#342611"/>
+  <text x="743" y="631" class="pill">Django REST</text>
+
+  <rect x="1150" y="195" width="350" height="180" rx="22" fill="#18122D" stroke="#A98CFF" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1184" y="231" class="tiny">04</text>
+  <text x="1184" y="269" class="label">WebRTC Media Server</text>
+  <text x="1184" y="311" class="small">Video, audio, screen share</text>
+  <text x="1184" y="340" class="small">Optional recording egress</text>
+
+  <rect x="1150" y="475" width="350" height="195" rx="22" fill="#2D1216" stroke="#FF6B6B" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1184" y="511" class="tiny">05</text>
+  <text x="1184" y="549" class="label">Realtime Signaling</text>
+  <text x="1184" y="591" class="small">Invites and presence</text>
+  <text x="1184" y="620" class="small">Permissions and whiteboard sync</text>
+  <text x="1184" y="649" class="small">Reactions and disconnect events</text>
+
+  <rect x="680" y="765" width="350" height="170" rx="22" fill="#0B1830" stroke="#5C8DFF" stroke-width="2" filter="url(#shadow)"/>
+  <text x="714" y="801" class="tiny">06</text>
+  <text x="714" y="839" class="label">Relational Database</text>
+  <text x="714" y="881" class="small">Persistent session data</text>
+  <text x="714" y="910" class="small">Logs, consent, chat, attachments</text>
+
+  <rect x="1150" y="765" width="350" height="170" rx="22" fill="#0D211A" stroke="#58C888" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1184" y="801" class="tiny">07</text>
+  <text x="1184" y="839" class="label">Object Storage</text>
+  <text x="1184" y="881" class="small">Uploaded files and recordings</text>
+  <text x="1184" y="910" class="small">Generated download packages</text>
+
+  <path d="M142 392H170" stroke="#5C8DFF" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <path d="M142 688H170" stroke="#5C8DFF" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <path d="M540 305H666" stroke="#5C8DFF" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <path d="M540 595H666" stroke="#5C8DFF" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <path d="M1030 335H1136" stroke="#A98CFF" stroke-width="3" stroke-dasharray="9 8" marker-end="url(#arrowPurple)"/>
+  <path d="M1030 585H1136" stroke="#FF6B6B" stroke-width="3" stroke-dasharray="9 8" marker-end="url(#arrowRed)"/>
+  <path d="M855 675V751" stroke="#5C8DFF" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <path d="M1030 635C1100 670 1105 845 1136 855" stroke="#5C8DFF" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <path d="M1030 855H1136" stroke="#8A99AD" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arrowGray)"/>
+  <path d="M540 805C625 770 640 640 680 585" stroke="#8A99AD" stroke-width="2.5" stroke-dasharray="8 7" marker-end="url(#arrowGray)"/>
+
+  <rect x="560" y="278" width="78" height="32" rx="16" fill="#0F1D31"/>
+  <text x="575" y="300" class="tiny">HTTPS</text>
+  <rect x="1060" y="304" width="88" height="32" rx="16" fill="#15112A"/>
+  <text x="1075" y="326" class="tiny">WebRTC</text>
+  <rect x="1065" y="552" width="84" height="32" rx="16" fill="#2A1115"/>
+  <text x="1081" y="574" class="tiny">WSS</text>
+
+  <rect x="72" y="982" width="1456" height="42" rx="12" fill="#0A1321" stroke="#223149"/>
+  <line x1="98" y1="1004" x2="150" y2="1004" stroke="#5C8DFF" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <text x="164" y="1010" class="note">HTTPS / API</text>
+  <line x1="318" y1="1004" x2="370" y2="1004" stroke="#FF6B6B" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arrowRed)"/>
+  <text x="384" y="1010" class="note">Realtime signaling</text>
+  <line x1="600" y1="1004" x2="652" y2="1004" stroke="#A98CFF" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arrowPurple)"/>
+  <text x="666" y="1010" class="note">Media server API</text>
+  <line x1="870" y1="1004" x2="922" y2="1004" stroke="#8A99AD" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arrowGray)"/>
+  <text x="936" y="1010" class="note">Internal/background flow</text>
+  <text x="1238" y="1010" class="note">Architecture simplified for public portfolio</text>
+</svg>

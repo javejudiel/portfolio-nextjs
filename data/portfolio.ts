@@ -162,7 +162,7 @@ export const projects = [
     description:
       "A clinical telemedicine platform with Django, React, PostgreSQL, WebRTC conferencing, DICOM imaging workflows, real-time collaboration, consent capture, audit logging, and secure patient-information masking.",
     tags: ["Django", "React", "PostgreSQL", "WebRTC"],
-    href: "#"
+    href: "/projects/mitycloud"
   },
   {
     title: "Social Platform for Musicians",
