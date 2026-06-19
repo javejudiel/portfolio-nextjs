@@ -169,7 +169,7 @@ export const projects = [
     description:
       "A next-generation social platform tailored for musicians, leveraging graph database technology for optimized data relationships and scalability.",
     tags: ["GraphQL", "Neo4j", "Node.js"],
-    href: "#"
+    href: "/projects/social-platform-for-musicians"
   },
   {
     title: "Logistics Management System",
