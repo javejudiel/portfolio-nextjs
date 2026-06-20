@@ -1,0 +1,108 @@
+<svg width="1600" height="1040" viewBox="0 0 1600 1040" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1040" rx="32" fill="#07101D"/>
+  <circle cx="280" cy="250" r="260" fill="#5C8DFF" opacity="0.12"/>
+  <circle cx="1240" cy="720" r="320" fill="#F6B74D" opacity="0.10"/>
+
+  <style>
+    .title{font:800 42px Arial,sans-serif;fill:#F8FBFF}
+    .subtitle{font:400 20px Arial,sans-serif;fill:#AFC1D8}
+    .label{font:800 22px Arial,sans-serif;fill:#F8FBFF}
+    .small{font:400 17px Arial,sans-serif;fill:#BFD0E5}
+    .tiny{font:700 15px Arial,sans-serif;fill:#8AA2FF}
+    .pill{font:700 15px Arial,sans-serif;fill:#DDE7F6}
+    .note{font:400 16px Arial,sans-serif;fill:#AFC1D8}
+  </style>
+
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2L10 6L2 10V2Z" fill="#5C8DFF"/></marker>
+    <marker id="arrowTeal" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2L10 6L2 10V2Z" fill="#5EE0D0"/></marker>
+    <marker id="arrowAmber" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2L10 6L2 10V2Z" fill="#F6B74D"/></marker>
+    <marker id="arrowPurple" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2L10 6L2 10V2Z" fill="#A98CFF"/></marker>
+    <marker id="arrowGray" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2L10 6L2 10V2Z" fill="#8A99AD"/></marker>
+  </defs>
+
+  <text x="72" y="76" class="title">E-commerce Platform Migration Architecture</text>
+  <text x="72" y="114" class="subtitle">Simplified for portfolio use. Focused on migrating a WordPress/WooCommerce store into a Laravel commerce platform.</text>
+
+  <rect x="90" y="190" width="360" height="260" rx="22" fill="#172033" stroke="#5C8DFF" stroke-width="2" filter="url(#shadow)"/>
+  <text x="124" y="228" class="tiny">01</text>
+  <text x="124" y="268" class="label">Legacy WooCommerce</text>
+  <text x="124" y="297" class="label">Store</text>
+  <text x="124" y="339" class="small">Products and categories</text>
+  <text x="124" y="368" class="small">Customer and order records</text>
+  <text x="124" y="397" class="small">WordPress content and pages</text>
+  <text x="124" y="426" class="small">Plugin-dependent checkout flow</text>
+
+  <rect x="565" y="170" width="420" height="310" rx="24" fill="#102D2E" stroke="#5EE0D0" stroke-width="2" filter="url(#shadow)"/>
+  <text x="599" y="208" class="tiny">02</text>
+  <text x="599" y="248" class="label">Laravel Commerce Core</text>
+  <text x="599" y="292" class="small">Custom storefront and product catalog</text>
+  <text x="599" y="321" class="small">Checkout and order workflow</text>
+  <text x="599" y="350" class="small">Admin tools for catalog operations</text>
+  <text x="599" y="379" class="small">API-ready business logic</text>
+  <rect x="599" y="410" width="150" height="34" rx="17" fill="rgba(255,255,255,0.08)"/>
+  <text x="636" y="432" class="pill">Laravel</text>
+
+  <rect x="1110" y="190" width="350" height="230" rx="22" fill="#2C1D0F" stroke="#F6B74D" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1144" y="228" class="tiny">03</text>
+  <text x="1144" y="268" class="label">Checkout &amp; Payments</text>
+  <text x="1144" y="312" class="small">Cart and checkout flow</text>
+  <text x="1144" y="341" class="small">Payment integration layer</text>
+  <text x="1144" y="370" class="small">Order confirmation handling</text>
+
+  <rect x="115" y="585" width="345" height="230" rx="22" fill="#241833" stroke="#A98CFF" stroke-width="2" filter="url(#shadow)"/>
+  <text x="149" y="623" class="tiny">04</text>
+  <text x="149" y="663" class="label">Migration Pipeline</text>
+  <text x="149" y="707" class="small">Export legacy product data</text>
+  <text x="149" y="736" class="small">Map fields into new schemas</text>
+  <text x="149" y="765" class="small">Validate migrated records</text>
+
+  <rect x="590" y="555" width="360" height="220" rx="22" fill="#0B1830" stroke="#5C8DFF" stroke-width="2" filter="url(#shadow)"/>
+  <text x="624" y="593" class="tiny">05</text>
+  <text x="624" y="633" class="label">Relational Database</text>
+  <text x="624" y="677" class="small">Products, variants, inventory</text>
+  <text x="624" y="706" class="small">Customers, carts, and orders</text>
+  <text x="624" y="735" class="small">Migration-safe normalized data</text>
+
+  <rect x="1080" y="575" width="390" height="260" rx="22" fill="#112A32" stroke="#5EE0D0" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1114" y="613" class="tiny">06</text>
+  <text x="1114" y="653" class="label">Operations &amp; Admin</text>
+  <text x="1114" y="697" class="small">Product and inventory management</text>
+  <text x="1114" y="726" class="small">Order processing workflows</text>
+  <text x="1114" y="755" class="small">Customer service visibility</text>
+  <text x="1114" y="784" class="small">Performance-focused delivery</text>
+
+  <rect x="500" y="835" width="540" height="120" rx="22" fill="#172033" stroke="#8FA2BA" stroke-width="2" filter="url(#shadow)"/>
+  <text x="534" y="873" class="tiny">07</text>
+  <text x="534" y="923" class="label">Deployment &amp; Performance Tuning</text>
+
+  <path d="M450 320H551" stroke="#5C8DFF" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <path d="M985 320H1096" stroke="#F6B74D" stroke-width="3" marker-end="url(#arrowAmber)"/>
+  <path d="M270 450V571" stroke="#A98CFF" stroke-width="3" stroke-dasharray="9 8" marker-end="url(#arrowPurple)"/>
+  <path d="M460 700H576" stroke="#A98CFF" stroke-width="3" stroke-dasharray="9 8" marker-end="url(#arrowPurple)"/>
+  <path d="M775 480V541" stroke="#5C8DFF" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <path d="M950 720H1066" stroke="#5EE0D0" stroke-width="3" marker-end="url(#arrowTeal)"/>
+  <path d="M1275 575V444H985" stroke="#5EE0D0" stroke-width="3" stroke-dasharray="9 8" marker-end="url(#arrowTeal)"/>
+  <path d="M775 775V821" stroke="#8A99AD" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arrowGray)"/>
+
+  <rect x="470" y="294" width="78" height="32" rx="16" fill="#0F1D31"/>
+  <text x="488" y="316" class="tiny">Rebuild</text>
+  <rect x="1004" y="294" width="88" height="32" rx="16" fill="#2B1C10"/>
+  <text x="1022" y="316" class="tiny">Checkout</text>
+  <rect x="486" y="674" width="82" height="32" rx="16" fill="#18122D"/>
+  <text x="504" y="696" class="tiny">Import</text>
+  <rect x="976" y="694" width="82" height="32" rx="16" fill="#102A2B"/>
+  <text x="994" y="716" class="tiny">Admin</text>
+
+  <rect x="72" y="982" width="1456" height="42" rx="12" fill="#0A1321" stroke="#223149"/>
+  <line x1="98" y1="1004" x2="150" y2="1004" stroke="#5C8DFF" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <text x="164" y="1010" class="note">Application rebuild flow</text>
+  <line x1="406" y1="1004" x2="458" y2="1004" stroke="#A98CFF" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arrowPurple)"/>
+  <text x="472" y="1010" class="note">Data migration flow</text>
+  <line x1="678" y1="1004" x2="730" y2="1004" stroke="#5EE0D0" stroke-width="3" marker-end="url(#arrowTeal)"/>
+  <text x="744" y="1010" class="note">Operational workflow</text>
+  <text x="1174" y="1010" class="note">Architecture simplified for public portfolio</text>
+</svg>

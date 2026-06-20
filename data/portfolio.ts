@@ -183,7 +183,7 @@ export const projects = [
     description:
       "Migrated a high-traffic e-commerce site from WordPress to Laravel, improving performance and flexibility.",
     tags: ["Laravel", "WordPress", "WooCommerce"],
-    href: "#"
+    href: "/projects/ecommerce-platform-migration"
   },
   {
     title: "Appointment Scheduling & Patient Management System",
