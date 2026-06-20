@@ -961,6 +961,13 @@ h2 {
     linear-gradient(145deg, rgba(12, 18, 28, 0.92), rgba(4, 7, 12, 0.96));
 }
 
+.shopify-case-hero {
+  background:
+    radial-gradient(circle at 76% 18%, rgba(39, 194, 184, 0.15), transparent 25rem),
+    radial-gradient(circle at 94% 68%, rgba(92, 124, 255, 0.14), transparent 24rem),
+    linear-gradient(145deg, rgba(12, 18, 28, 0.92), rgba(4, 7, 12, 0.96));
+}
+
 .graph-map {
   position: relative;
   display: grid;

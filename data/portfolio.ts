@@ -211,7 +211,7 @@ export const projects = [
     description:
       "Developed a Shopify-based e-commerce website with custom features and optimizations.",
     tags: ["Shopify", "Liquid", "JavaScript", "API Integrations"],
-    href: "#"
+    href: "/projects/shopify-ecommerce-website"
   }
 ];
 
