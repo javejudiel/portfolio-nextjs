@@ -1,0 +1,118 @@
+<svg width="1600" height="1040" viewBox="0 0 1600 1040" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1040" rx="32" fill="#07101D"/>
+  <circle cx="1270" cy="150" r="280" fill="#2A7FFF" opacity="0.13"/>
+  <circle cx="320" cy="710" r="310" fill="#27C2B8" opacity="0.10"/>
+
+  <style>
+    .title{font:800 42px Arial,sans-serif;fill:#F8FBFF}
+    .subtitle{font:400 20px Arial,sans-serif;fill:#AFC1D8}
+    .label{font:800 22px Arial,sans-serif;fill:#F8FBFF}
+    .small{font:400 17px Arial,sans-serif;fill:#BFD0E5}
+    .tiny{font:700 15px Arial,sans-serif;fill:#8AA2FF}
+    .pill{font:700 15px Arial,sans-serif;fill:#DDE7F6}
+    .note{font:400 16px Arial,sans-serif;fill:#AFC1D8}
+  </style>
+
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2L10 6L2 10V2Z" fill="#5C8DFF"/></marker>
+    <marker id="arrowPurple" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2L10 6L2 10V2Z" fill="#A98CFF"/></marker>
+    <marker id="arrowTeal" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2L10 6L2 10V2Z" fill="#5EE0D0"/></marker>
+    <marker id="arrowGray" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2L10 6L2 10V2Z" fill="#8A99AD"/></marker>
+  </defs>
+
+  <text x="72" y="76" class="title">Social Platform System Architecture</text>
+  <text x="72" y="114" class="subtitle">Simplified for portfolio use. Focused on graph relationships, discovery, media metadata, and platform integrations.</text>
+
+  <g transform="translate(82 360)">
+    <circle cx="24" cy="14" r="14" fill="#8FA2BA"/>
+    <path d="M2 54C5 36 43 36 46 54V66H2V54Z" fill="#8FA2BA"/>
+    <text x="-18" y="104" class="small">Musician</text>
+  </g>
+  <g transform="translate(82 660)">
+    <circle cx="24" cy="14" r="14" fill="#8FA2BA"/>
+    <path d="M2 54C5 36 43 36 46 54V66H2V54Z" fill="#8FA2BA"/>
+    <text x="-30" y="104" class="small">Business / Fan</text>
+  </g>
+
+  <rect x="180" y="190" width="390" height="245" rx="22" fill="#21162E" stroke="#A98CFF" stroke-width="2" filter="url(#shadow)"/>
+  <text x="214" y="228" class="tiny">01</text>
+  <text x="214" y="268" class="label">Musician Web App</text>
+  <text x="214" y="312" class="small">Profiles and music network</text>
+  <text x="214" y="341" class="small">Posts, media uploads, messaging</text>
+  <text x="214" y="370" class="small">Social connection workflows</text>
+  <rect x="214" y="398" width="150" height="34" rx="17" fill="rgba(255,255,255,0.08)"/>
+  <text x="239" y="420" class="pill">React UI</text>
+
+  <rect x="180" y="520" width="390" height="215" rx="22" fill="#201532" stroke="#A98CFF" stroke-width="2" filter="url(#shadow)"/>
+  <text x="214" y="558" class="tiny">02</text>
+  <text x="214" y="598" class="label">Business &amp; Fan Portal</text>
+  <text x="214" y="642" class="small">Search, business pages, events</text>
+  <text x="214" y="671" class="small">Artist discovery and engagement</text>
+  <text x="214" y="700" class="small">Community features</text>
+
+  <rect x="700" y="250" width="360" height="390" rx="24" fill="#102D2E" stroke="#5EE0D0" stroke-width="2" filter="url(#shadow)"/>
+  <text x="734" y="288" class="tiny">03</text>
+  <text x="734" y="328" class="label">Graph API Backend</text>
+  <text x="734" y="372" class="small">GraphQL resolver layer</text>
+  <text x="734" y="408" class="small">Relationship mapping</text>
+  <text x="734" y="444" class="small">Media and profile APIs</text>
+  <text x="734" y="480" class="small">Cypher query refactoring</text>
+  <text x="734" y="516" class="small">Strategic graph indexing</text>
+  <text x="734" y="552" class="small">40% response-time reduction</text>
+  <rect x="734" y="588" width="168" height="38" rx="19" fill="rgba(255,255,255,0.08)"/>
+  <text x="763" y="612" class="pill">GraphQL API</text>
+
+  <rect x="1170" y="180" width="340" height="205" rx="22" fill="#172033" stroke="#8FA2BA" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1204" y="218" class="tiny">04</text>
+  <text x="1204" y="258" class="label">External Auth &amp; Email</text>
+  <text x="1204" y="302" class="small">Microsoft OAuth2 login</text>
+  <text x="1204" y="331" class="small">Secure transactional email</text>
+  <text x="1204" y="360" class="small">SMTP delivery integration</text>
+
+  <rect x="1170" y="465" width="340" height="220" rx="22" fill="#112A32" stroke="#5EE0D0" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1204" y="503" class="tiny">05</text>
+  <text x="1204" y="543" class="label">Media &amp; Social Metadata</text>
+  <text x="1204" y="587" class="small">Media asset references</text>
+  <text x="1204" y="616" class="small">Social feed metadata</text>
+  <text x="1204" y="645" class="small">Temporary cache layer</text>
+
+  <rect x="700" y="770" width="810" height="180" rx="24" fill="#0B1830" stroke="#5C8DFF" stroke-width="2" filter="url(#shadow)"/>
+  <text x="734" y="806" class="tiny">06</text>
+  <text x="734" y="844" class="label">Neo4j Graph Database</text>
+  <text x="734" y="886" class="small">Primary graph store for musicians, businesses, media assets, connections, posts, and opportunities</text>
+  <text x="734" y="915" class="small">Optimized relationship traversal with indexes and Cypher query tuning</text>
+  <rect x="1250" y="808" width="180" height="38" rx="19" fill="rgba(255,255,255,0.08)"/>
+  <text x="1290" y="832" class="pill">Neo4j / Cypher</text>
+
+  <rect x="1188" y="704" width="322" height="38" rx="19" fill="#121E31" stroke="#283A56"/>
+  <text x="1223" y="729" class="note">Webhook-triggered CI/CD pipeline</text>
+
+  <path d="M146 388H170" stroke="#5C8DFF" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <path d="M146 688H170" stroke="#5C8DFF" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <path d="M570 310H686" stroke="#5C8DFF" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <path d="M570 630H686" stroke="#5C8DFF" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <path d="M1060 340H1156" stroke="#A98CFF" stroke-width="3" stroke-dasharray="9 8" marker-end="url(#arrowPurple)"/>
+  <path d="M1060 545H1156" stroke="#5EE0D0" stroke-width="3" marker-end="url(#arrowTeal)"/>
+  <path d="M880 640V756" stroke="#5C8DFF" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <path d="M1340 685V700H1570V925H1526" stroke="#8A99AD" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arrowGray)"/>
+  <path d="M1188 723H1108V620H1074" stroke="#A98CFF" stroke-width="3" stroke-dasharray="9 8" marker-end="url(#arrowPurple)"/>
+
+  <rect x="600" y="276" width="94" height="32" rx="16" fill="#0F1D31"/>
+  <text x="617" y="298" class="tiny">GraphQL</text>
+  <rect x="1090" y="308" width="78" height="32" rx="16" fill="#15112A"/>
+  <text x="1104" y="330" class="tiny">OAuth</text>
+  <rect x="1088" y="512" width="78" height="32" rx="16" fill="#102A2B"/>
+  <text x="1104" y="534" class="tiny">Media</text>
+
+  <rect x="72" y="982" width="1456" height="42" rx="12" fill="#0A1321" stroke="#223149"/>
+  <line x1="98" y1="1004" x2="150" y2="1004" stroke="#5C8DFF" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <text x="164" y="1010" class="note">GraphQL API flow</text>
+  <line x1="355" y1="1004" x2="407" y2="1004" stroke="#A98CFF" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arrowPurple)"/>
+  <text x="421" y="1010" class="note">External service / webhook flow</text>
+  <line x1="720" y1="1004" x2="772" y2="1004" stroke="#8A99AD" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arrowGray)"/>
+  <text x="786" y="1010" class="note">Internal/background flow</text>
+  <text x="1174" y="1010" class="note">Architecture simplified for public portfolio</text>
+</svg>

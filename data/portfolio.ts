@@ -162,56 +162,56 @@ export const projects = [
     description:
       "A clinical telemedicine platform with Django, React, PostgreSQL, WebRTC conferencing, DICOM imaging workflows, real-time collaboration, consent capture, audit logging, and secure patient-information masking.",
     tags: ["Django", "React", "PostgreSQL", "WebRTC"],
-    href: "#"
+    href: "/projects/mitycloud"
   },
   {
     title: "Social Platform for Musicians",
     description:
       "A next-generation social platform tailored for musicians, leveraging graph database technology for optimized data relationships and scalability.",
     tags: ["GraphQL", "Neo4j", "Node.js"],
-    href: "#"
-  },
-  {
-    title: "Logistics Management System",
-    description:
-      "An order tracking and logistics platform integrating Lazada and TikTok APIs.",
-    tags: ["Laravel", "MySQL", "API Integrations"],
-    href: "#"
-  },
-  {
-    title: "E-commerce Platform Migration",
-    description:
-      "Migrated a high-traffic e-commerce site from WordPress to Laravel, improving performance and flexibility.",
-    tags: ["Laravel", "WordPress", "WooCommerce"],
-    href: "#"
-  },
-  {
-    title: "Appointment Scheduling & Patient Management System",
-    description:
-      "A patient management and appointment scheduling system for a healthcare client.",
-    tags: ["Laravel", "MySQL", "API Development"],
-    href: "#"
-  },
-  {
-    title: "Library Management System",
-    description:
-      "A full-featured library management system for book tracking, borrowing, and returns.",
-    tags: ["Laravel", "JavaScript", "MySQL", "API Development"],
-    href: "#"
-  },
-  {
-    title: "Shopify E-commerce Website",
-    description:
-      "Developed a Shopify-based e-commerce website with custom features and optimizations.",
-    tags: ["Shopify", "Liquid", "JavaScript", "API Integrations"],
-    href: "#"
+    href: "/projects/social-platform-for-musicians"
   },
   {
     title: "Ride-Hailing Platform",
     description:
       "Built a full-stack ride-hailing platform from scratch with a TypeScript backend, Neon Serverless PostgreSQL via Drizzle ORM, and a modern React/Next.js frontend, implementing core booking APIs and responsive UI components.",
     tags: ["Next.js", "TypeScript", "PostgreSQL"],
-    href: "#"
+    href: "/projects/ride-hailing-platform"
+  },
+  {
+    title: "Logistics Management System",
+    description:
+      "An order tracking and logistics platform integrating Lazada and TikTok APIs.",
+    tags: ["Laravel", "MySQL", "API Integrations"],
+    href: "/projects/logistics-management-system"
+  },
+  {
+    title: "E-commerce Platform Migration",
+    description:
+      "Migrated a high-traffic e-commerce site from WordPress to Laravel, improving performance and flexibility.",
+    tags: ["Laravel", "WordPress", "WooCommerce"],
+    href: "/projects/ecommerce-platform-migration"
+  },
+  {
+    title: "Appointment Scheduling & Patient Management System",
+    description:
+      "A patient management and appointment scheduling system for a healthcare client.",
+    tags: ["Vue.js", "Laravel", "MySQL", "Stripe"],
+    href: "/projects/appointment-scheduling-patient-management-system"
+  },
+  {
+    title: "Library Management System",
+    description:
+      "A full-featured library management system for book tracking, borrowing, and returns.",
+    tags: ["Laravel", "JavaScript", "MySQL", "API Development"],
+    href: "/projects/library-management-system"
+  },
+  {
+    title: "Shopify E-commerce Website",
+    description:
+      "Developed a Shopify-based e-commerce website with custom features and optimizations.",
+    tags: ["Shopify", "Liquid", "JavaScript", "API Integrations"],
+    href: "/projects/shopify-ecommerce-website"
   }
 ];
 
