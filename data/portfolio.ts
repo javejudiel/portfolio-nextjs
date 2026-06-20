@@ -172,6 +172,13 @@ export const projects = [
     href: "/projects/social-platform-for-musicians"
   },
   {
+    title: "Ride-Hailing Platform",
+    description:
+      "Built a full-stack ride-hailing platform from scratch with a TypeScript backend, Neon Serverless PostgreSQL via Drizzle ORM, and a modern React/Next.js frontend, implementing core booking APIs and responsive UI components.",
+    tags: ["Next.js", "TypeScript", "PostgreSQL"],
+    href: "/projects/ride-hailing-platform"
+  },
+  {
     title: "Logistics Management System",
     description:
       "An order tracking and logistics platform integrating Lazada and TikTok APIs.",
@@ -204,13 +211,6 @@ export const projects = [
     description:
       "Developed a Shopify-based e-commerce website with custom features and optimizations.",
     tags: ["Shopify", "Liquid", "JavaScript", "API Integrations"],
-    href: "#"
-  },
-  {
-    title: "Ride-Hailing Platform",
-    description:
-      "Built a full-stack ride-hailing platform from scratch with a TypeScript backend, Neon Serverless PostgreSQL via Drizzle ORM, and a modern React/Next.js frontend, implementing core booking APIs and responsive UI components.",
-    tags: ["Next.js", "TypeScript", "PostgreSQL"],
     href: "#"
   }
 ];
