@@ -204,7 +204,7 @@ export const projects = [
     description:
       "A full-featured library management system for book tracking, borrowing, and returns.",
     tags: ["Laravel", "JavaScript", "MySQL", "API Development"],
-    href: "#"
+    href: "/projects/library-management-system"
   },
   {
     title: "Shopify E-commerce Website",
