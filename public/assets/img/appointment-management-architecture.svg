@@ -1,0 +1,117 @@
+<svg width="1600" height="1040" viewBox="0 0 1600 1040" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1040" rx="32" fill="#07101D"/>
+  <circle cx="310" cy="330" r="285" fill="#5C8DFF" opacity="0.11"/>
+  <circle cx="1240" cy="690" r="300" fill="#27C2B8" opacity="0.10"/>
+
+  <style>
+    .title{font:800 42px Arial,sans-serif;fill:#F8FBFF}
+    .subtitle{font:400 20px Arial,sans-serif;fill:#AFC1D8}
+    .label{font:800 22px Arial,sans-serif;fill:#F8FBFF}
+    .small{font:400 17px Arial,sans-serif;fill:#BFD0E5}
+    .tiny{font:700 15px Arial,sans-serif;fill:#8AA2FF}
+    .pill{font:700 15px Arial,sans-serif;fill:#DDE7F6}
+    .note{font:400 16px Arial,sans-serif;fill:#AFC1D8}
+  </style>
+
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2L10 6L2 10V2Z" fill="#5C8DFF"/></marker>
+    <marker id="arrowTeal" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2L10 6L2 10V2Z" fill="#5EE0D0"/></marker>
+    <marker id="arrowAmber" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2L10 6L2 10V2Z" fill="#F6B74D"/></marker>
+    <marker id="arrowPurple" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2L10 6L2 10V2Z" fill="#A98CFF"/></marker>
+    <marker id="arrowGray" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2L10 6L2 10V2Z" fill="#8A99AD"/></marker>
+  </defs>
+
+  <text x="72" y="76" class="title">Appointment Scheduling &amp; Patient Management Architecture</text>
+  <text x="72" y="114" class="subtitle">Simplified for portfolio use. Focused on appointment booking, admissions monitoring, doctor schedules, payments, and reminders.</text>
+
+  <rect x="85" y="205" width="360" height="250" rx="22" fill="#172033" stroke="#5C8DFF" stroke-width="2" filter="url(#shadow)"/>
+  <text x="119" y="243" class="tiny">01</text>
+  <text x="119" y="283" class="label">Patient Portal</text>
+  <text x="119" y="327" class="small">Select doctor and schedule</text>
+  <text x="119" y="356" class="small">Choose date and appointment slot</text>
+  <text x="119" y="385" class="small">Submit patient details and payment</text>
+  <rect x="119" y="413" width="150" height="34" rx="17" fill="rgba(255,255,255,0.08)"/>
+  <text x="162" y="435" class="pill">Vue.js</text>
+
+  <rect x="85" y="535" width="360" height="250" rx="22" fill="#201532" stroke="#A98CFF" stroke-width="2" filter="url(#shadow)"/>
+  <text x="119" y="573" class="tiny">02</text>
+  <text x="119" y="613" class="label">Admin &amp; Doctor Panels</text>
+  <text x="119" y="657" class="small">Monitor patient admissions</text>
+  <text x="119" y="686" class="small">Manage doctors and appointments</text>
+  <text x="119" y="715" class="small">Doctor schedule for the day</text>
+  <rect x="119" y="743" width="160" height="34" rx="17" fill="rgba(255,255,255,0.08)"/>
+  <text x="161" y="765" class="pill">Vue.js</text>
+
+  <rect x="600" y="250" width="440" height="360" rx="24" fill="#102D2E" stroke="#5EE0D0" stroke-width="2" filter="url(#shadow)"/>
+  <text x="634" y="288" class="tiny">03</text>
+  <text x="634" y="328" class="label">Laravel API</text>
+  <text x="634" y="372" class="small">Doctor and appointment APIs</text>
+  <text x="634" y="401" class="small">Patient admission workflows</text>
+  <text x="634" y="430" class="small">Schedule availability validation</text>
+  <text x="634" y="459" class="small">Stripe payment coordination</text>
+  <text x="634" y="488" class="small">Email and SMS reminder dispatch</text>
+  <rect x="634" y="532" width="165" height="34" rx="17" fill="rgba(255,255,255,0.08)"/>
+  <text x="683" y="554" class="pill">Laravel</text>
+
+  <rect x="1160" y="205" width="340" height="210" rx="22" fill="#2C1D0F" stroke="#F6B74D" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1194" y="243" class="tiny">04</text>
+  <text x="1194" y="283" class="label">Stripe Payments</text>
+  <text x="1194" y="327" class="small">Payment intent and checkout flow</text>
+  <text x="1194" y="356" class="small">Payment status callback</text>
+  <text x="1194" y="385" class="small">Appointment payment records</text>
+
+  <rect x="1160" y="500" width="340" height="230" rx="22" fill="#112A32" stroke="#5EE0D0" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1194" y="538" class="tiny">05</text>
+  <text x="1194" y="578" class="label">Reminder Services</text>
+  <text x="1194" y="622" class="small">Appointment confirmation email</text>
+  <text x="1194" y="651" class="small">SMS reminder for patients</text>
+  <text x="1194" y="680" class="small">Doctor schedule notifications</text>
+  <text x="1194" y="709" class="small">Queued message delivery</text>
+
+  <rect x="610" y="750" width="360" height="190" rx="22" fill="#0B1830" stroke="#5C8DFF" stroke-width="2" filter="url(#shadow)"/>
+  <text x="644" y="788" class="tiny">06</text>
+  <text x="644" y="828" class="label">MySQL Database</text>
+  <text x="644" y="872" class="small">Patients, doctors, appointments</text>
+  <text x="644" y="901" class="small">Admissions, payments, reminders</text>
+  <text x="644" y="930" class="small">Schedules and audit records</text>
+
+  <rect x="1075" y="795" width="340" height="120" rx="22" fill="#182333" stroke="#8A99AD" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1109" y="833" class="tiny">07</text>
+  <text x="1109" y="873" class="label">Scheduler / Queue</text>
+  <text x="1109" y="903" class="small">Checks upcoming appointments and sends reminders</text>
+
+  <path d="M445 330H586" stroke="#5C8DFF" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <path d="M445 660H560V476H586" stroke="#A98CFF" stroke-width="3" marker-end="url(#arrowPurple)"/>
+  <path d="M1040 360H1146" stroke="#F6B74D" stroke-width="3" marker-end="url(#arrowAmber)"/>
+  <path d="M1040 548H1128V615H1146" stroke="#5EE0D0" stroke-width="3" marker-end="url(#arrowTeal)"/>
+  <path d="M820 610V736" stroke="#5C8DFF" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <path d="M970 845H1061" stroke="#8A99AD" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arrowGray)"/>
+  <path d="M1245 795V744" stroke="#5EE0D0" stroke-width="3" marker-end="url(#arrowTeal)"/>
+  <path d="M1075 856H984" stroke="#8A99AD" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arrowGray)"/>
+
+  <rect x="471" y="294" width="96" height="32" rx="16" fill="#0F1D31"/>
+  <text x="491" y="316" class="tiny">Booking</text>
+  <rect x="478" y="625" width="86" height="32" rx="16" fill="#18122D"/>
+  <text x="498" y="647" class="tiny">Manage</text>
+  <rect x="1066" y="320" width="84" height="32" rx="16" fill="#2B1C10"/>
+  <text x="1086" y="342" class="tiny">Pay</text>
+  <rect x="1061" y="577" width="92" height="32" rx="16" fill="#102A2B"/>
+  <text x="1078" y="599" class="tiny">Notify</text>
+  <rect x="842" y="668" width="96" height="32" rx="16" fill="#0F1D31"/>
+  <text x="861" y="690" class="tiny">Persist</text>
+  <rect x="990" y="808" width="86" height="32" rx="16" fill="#172033"/>
+  <text x="1010" y="830" class="tiny">Queue</text>
+
+  <rect x="72" y="982" width="1456" height="42" rx="12" fill="#0A1321" stroke="#223149"/>
+  <line x1="98" y1="1004" x2="150" y2="1004" stroke="#5C8DFF" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <text x="164" y="1010" class="note">Patient booking flow</text>
+  <line x1="395" y1="1004" x2="447" y2="1004" stroke="#A98CFF" stroke-width="3" marker-end="url(#arrowPurple)"/>
+  <text x="461" y="1010" class="note">Admin and doctor workflow</text>
+  <line x1="760" y1="1004" x2="812" y2="1004" stroke="#F6B74D" stroke-width="3" marker-end="url(#arrowAmber)"/>
+  <text x="826" y="1010" class="note">Payment gateway flow</text>
+  <line x1="1110" y1="1004" x2="1162" y2="1004" stroke="#5EE0D0" stroke-width="3" marker-end="url(#arrowTeal)"/>
+  <text x="1176" y="1010" class="note">Email and SMS reminders</text>
+</svg>

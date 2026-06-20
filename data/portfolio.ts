@@ -196,8 +196,8 @@ export const projects = [
     title: "Appointment Scheduling & Patient Management System",
     description:
       "A patient management and appointment scheduling system for a healthcare client.",
-    tags: ["Laravel", "MySQL", "API Development"],
-    href: "#"
+    tags: ["Vue.js", "Laravel", "MySQL", "Stripe"],
+    href: "/projects/appointment-scheduling-patient-management-system"
   },
   {
     title: "Library Management System",
