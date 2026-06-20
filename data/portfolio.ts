@@ -176,7 +176,7 @@ export const projects = [
     description:
       "An order tracking and logistics platform integrating Lazada and TikTok APIs.",
     tags: ["Laravel", "MySQL", "API Integrations"],
-    href: "#"
+    href: "/projects/logistics-management-system"
   },
   {
     title: "E-commerce Platform Migration",
