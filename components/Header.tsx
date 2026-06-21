@@ -1,4 +1,4 @@
-import { Download } from "lucide-react";
+import { Download, Menu } from "lucide-react";
 import { profile } from "@/data/portfolio";
 
 const navItems = ["Home", "About", "Projects", "Experience", "Skills", "Contact"];
@@ -23,6 +23,22 @@ export function Header() {
         <span>Download CV</span>
         <Download size={16} />
       </a>
+
+      <details className="mobile-menu">
+        <summary aria-label="Open navigation menu">
+          <Menu size={20} />
+        </summary>
+        <nav aria-label="Mobile navigation">
+          {navItems.map((item) => (
+            <a key={item} href={`#${item.toLowerCase()}`}>
+              {item}
+            </a>
+          ))}
+          <a href={profile.cvPath} download>
+            Download CV
+          </a>
+        </nav>
+      </details>
     </header>
   );
 }
